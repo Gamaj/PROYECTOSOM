@@ -6,7 +6,7 @@ public class microServicioSOM extends Thread {
 	private Random r;
 
 	public microServicioSOM(String nombre) {
-		this.nombre=nombre;
+		this.nombre = nombre;
 		this.r = new Random();
 		this.segs = r.nextInt((900 - 300) + 1) + 300;
 	}
