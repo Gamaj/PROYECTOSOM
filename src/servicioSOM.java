@@ -55,7 +55,7 @@ public class servicioSOM extends Thread {
 			}
 		}
 
-	/*	mensaje expropieme = new mensaje();
+		mensaje expropieme = new mensaje();
 		expropieme.setTxt("ACABE");
 		expropieme.setService(this);
 		expropieme.setSysmsg(false);
@@ -63,7 +63,7 @@ public class servicioSOM extends Thread {
 		expropieme.setFrom(proceso);
 		proceso.getKernel().recibirmensaje(expropieme);
      	//proceso.esperar();
-     	 */
+     	 
 		
 	}
 	public Queue<microServicioSOM> getListaMicroServicios() {

@@ -97,7 +97,7 @@ public class procesoSOM extends Thread {
 	public synchronized void esperar() {
 		try {
 			this.esperando=true;
-			System.out.println("ESPERANDO " + this.nombre);
+			System.out.println("EXPROPIANDO " + this.nombre);
 			wait();
 		} catch (InterruptedException e) {
 		}
